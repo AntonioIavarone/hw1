@@ -187,7 +187,7 @@
                 <h1>TUTTE LE NEWS DI CASA MICROSOFT</h1>
                 <ul id="newsList">
                 <?php
-                    $apiKey = '66f041cd9040cab629e03969d81f08a1';
+                    $apiKey = '';
 
                     $query = 'microsoft';
 
