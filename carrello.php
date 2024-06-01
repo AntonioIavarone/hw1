@@ -181,8 +181,8 @@ if (isset($_GET['code']) && $_SESSION['totale'] > 0) {
 
     $idempotencyKey = generateIdempotencyKey();
     
-    $clientId = 'sandbox-sq0idb-Qpf_dDHdwj_oG4W2OZqPIg';
-    $clientSecret = 'sandbox-sq0csb-zvoGoQNLir7ODOTU71X-ANS4M3XZ5Qg53YYKh9RqkcM';
+    $clientId = '';
+    $clientSecret = '';
     $redirectUri = 'http://localhost/homeworkv2/carrello.php';
     
     $url = 'https://connect.squareupsandbox.com/oauth2/token';
