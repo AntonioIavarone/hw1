@@ -2,7 +2,7 @@
 session_start();
 $_SESSION['totale']=$_GET['amount'];
 
-$clientId = 'sandbox-sq0idb-Qpf_dDHdwj_oG4W2OZqPIg';
+$clientId = '';
 $redirectUri = 'http://localhost/homeworkv2/carrello.php';
 $scope = 'PAYMENTS_WRITE';
 
